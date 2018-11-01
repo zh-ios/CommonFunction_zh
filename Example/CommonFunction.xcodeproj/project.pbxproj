@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2FBB7E3B161BCF9DC0EC17F3 /* Pods-CommonFunction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonFunction_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonFunction_Tests/Pods-CommonFunction_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		41B191B545C8BDA558A2FF47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		41B191B545C8BDA558A2FF47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CommonFunction_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonFunction_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,10 +59,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85E342761A57BA0CBD77268D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		85E342761A57BA0CBD77268D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		880358AC92A2A7797C01FAA9 /* Pods-CommonFunction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonFunction_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonFunction_Tests/Pods-CommonFunction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8F8C3EAE32B53FA22F5150EE /* CommonFunction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CommonFunction.podspec; path = ../CommonFunction.podspec; sourceTree = "<group>"; };
+		8F8C3EAE32B53FA22F5150EE /* CommonFunction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CommonFunction.podspec; path = ../CommonFunction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6F1BDA99B8E0E71FC635C9C /* Pods_CommonFunction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonFunction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F9F828D452536650A64CB4 /* Pods_CommonFunction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonFunction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C0A52B1B6254B9708DECDB /* Pods-CommonFunction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonFunction_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonFunction_Example/Pods-CommonFunction_Example.release.xcconfig"; sourceTree = "<group>"; };

@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1329550B04B2F212426A7D7AEDF99F58 /* CommonFunction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7021E358CC7C3A79ECD333254CC90E /* CommonFunction-dummy.m */; };
+		17FD91185BAE2E46C5517C85EE3E9D2D /* CommonFunction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9095F761316634DA6693672B4ECECD19 /* CommonFunction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C88BEFAC2AB10FD4BDB09B880ED2D3E /* Pods-CommonFunction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA935B926D843556283B6B0C2E46921 /* Pods-CommonFunction_Tests-dummy.m */; };
+		7A6C0D61B0446E3E04F5561F4C46E1A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9B6C4FD32700F73BA4D3707231D6C387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CC96F122C1809D77007958FC2F277807 /* Pods-CommonFunction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE08CA22F28D2FC6C4AFE3184BC0444E /* Pods-CommonFunction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF40413DB8E9131DF16F46E2E969E8E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D008CFDDA5C5975C1F1039543F8AC141 /* Pods-CommonFunction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44590D0D1B9C1C57B007DDDE408088B2 /* Pods-CommonFunction_Example-dummy.m */; };
+		EA651F6E522D3F8BC82C88C6161152C8 /* Pods-CommonFunction_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC26ECF0E853E552EDD43378F9A56B40 /* Pods-CommonFunction_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9374E5E218B02B6004C2821 /* NSDate+AHDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E4A218B02B6004C2821 /* NSDate+AHDateUtil.h */; };
+		F9374E5F218B02B6004C2821 /* NSDate+AHDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E4A218B02B6004C2821 /* NSDate+AHDateUtil.h */; };
+		F9374E60218B02B6004C2821 /* NSDate+AHDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E4B218B02B6004C2821 /* NSDate+AHDateUtil.m */; };
+		F9374E61218B02B6004C2821 /* NSDate+AHDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E4B218B02B6004C2821 /* NSDate+AHDateUtil.m */; };
+		F9374E62218B02B6004C2821 /* NSString+Encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E4C218B02B6004C2821 /* NSString+Encoding.h */; };
+		F9374E63218B02B6004C2821 /* NSString+Encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E4C218B02B6004C2821 /* NSString+Encoding.h */; };
+		F9374E64218B02B6004C2821 /* NSString+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E4D218B02B6004C2821 /* NSString+Encoding.m */; };
+		F9374E65218B02B6004C2821 /* NSString+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E4D218B02B6004C2821 /* NSString+Encoding.m */; };
+		F9374E66218B02B6004C2821 /* NSString+Encryption.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E4E218B02B6004C2821 /* NSString+Encryption.h */; };
+		F9374E67218B02B6004C2821 /* NSString+Encryption.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E4E218B02B6004C2821 /* NSString+Encryption.h */; };
+		F9374E68218B02B6004C2821 /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E4F218B02B6004C2821 /* NSString+Encryption.m */; };
+		F9374E69218B02B6004C2821 /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E4F218B02B6004C2821 /* NSString+Encryption.m */; };
+		F9374E6A218B02B6004C2821 /* NSString+RegEx.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E50218B02B6004C2821 /* NSString+RegEx.h */; };
+		F9374E6B218B02B6004C2821 /* NSString+RegEx.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E50218B02B6004C2821 /* NSString+RegEx.h */; };
+		F9374E6C218B02B6004C2821 /* NSString+RegEx.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E51218B02B6004C2821 /* NSString+RegEx.m */; };
+		F9374E6D218B02B6004C2821 /* NSString+RegEx.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E51218B02B6004C2821 /* NSString+RegEx.m */; };
+		F9374E6E218B02B6004C2821 /* NSString+stringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E52218B02B6004C2821 /* NSString+stringUtil.h */; };
+		F9374E6F218B02B6004C2821 /* NSString+stringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E52218B02B6004C2821 /* NSString+stringUtil.h */; };
+		F9374E70218B02B6004C2821 /* NSString+stringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E53218B02B6004C2821 /* NSString+stringUtil.m */; };
+		F9374E71218B02B6004C2821 /* NSString+stringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E53218B02B6004C2821 /* NSString+stringUtil.m */; };
+		F9374E72218B02B6004C2821 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E54218B02B6004C2821 /* UIColor+HexString.h */; };
+		F9374E73218B02B6004C2821 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E54218B02B6004C2821 /* UIColor+HexString.h */; };
+		F9374E74218B02B6004C2821 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E55218B02B6004C2821 /* UIColor+HexString.m */; };
+		F9374E75218B02B6004C2821 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E55218B02B6004C2821 /* UIColor+HexString.m */; };
+		F9374E76218B02B6004C2821 /* UIImage+color.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E56218B02B6004C2821 /* UIImage+color.h */; };
+		F9374E77218B02B6004C2821 /* UIImage+color.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E56218B02B6004C2821 /* UIImage+color.h */; };
+		F9374E78218B02B6004C2821 /* UIImage+color.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E57218B02B6004C2821 /* UIImage+color.m */; };
+		F9374E79218B02B6004C2821 /* UIImage+color.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E57218B02B6004C2821 /* UIImage+color.m */; };
+		F9374E7A218B02B6004C2821 /* UIView+coordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E58218B02B6004C2821 /* UIView+coordinate.h */; };
+		F9374E7B218B02B6004C2821 /* UIView+coordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E58218B02B6004C2821 /* UIView+coordinate.h */; };
+		F9374E7C218B02B6004C2821 /* UIView+coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E59218B02B6004C2821 /* UIView+coordinate.m */; };
+		F9374E7D218B02B6004C2821 /* UIView+coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E59218B02B6004C2821 /* UIView+coordinate.m */; };
+		F9374E7E218B02B6004C2821 /* UIView+ExtendHitArea.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E5A218B02B6004C2821 /* UIView+ExtendHitArea.h */; };
+		F9374E7F218B02B6004C2821 /* UIView+ExtendHitArea.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E5A218B02B6004C2821 /* UIView+ExtendHitArea.h */; };
+		F9374E80218B02B6004C2821 /* UIView+ExtendHitArea.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E5B218B02B6004C2821 /* UIView+ExtendHitArea.m */; };
+		F9374E81218B02B6004C2821 /* UIView+ExtendHitArea.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E5B218B02B6004C2821 /* UIView+ExtendHitArea.m */; };
+		F9374E82218B02B6004C2821 /* UIView+mainThread.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E5C218B02B6004C2821 /* UIView+mainThread.h */; };
+		F9374E83218B02B6004C2821 /* UIView+mainThread.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E5C218B02B6004C2821 /* UIView+mainThread.h */; };
+		F9374E84218B02B6004C2821 /* UIView+mainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E5D218B02B6004C2821 /* UIView+mainThread.m */; };
+		F9374E85218B02B6004C2821 /* UIView+mainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E5D218B02B6004C2821 /* UIView+mainThread.m */; };
+		F9374E87218B02D3004C2821 /* CommonFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E86218B02D3004C2821 /* CommonFunction.h */; };
+		F9374E88218B02D3004C2821 /* CommonFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E86218B02D3004C2821 /* CommonFunction.h */; };
+		F9374E8B218B02DE004C2821 /* CommonFunctionPrefixHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E89218B02DD004C2821 /* CommonFunctionPrefixHeader.h */; };
+		F9374E8C218B02DE004C2821 /* CommonFunctionPrefixHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E89218B02DD004C2821 /* CommonFunctionPrefixHeader.h */; };
+		F9374E8D218B02DE004C2821 /* CommonFunctionDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E8A218B02DE004C2821 /* CommonFunctionDefine.h */; };
+		F9374E8E218B02DE004C2821 /* CommonFunctionDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E8A218B02DE004C2821 /* CommonFunctionDefine.h */; };
+		F9374EA8218B02E7004C2821 /* UIImage+ImagePicerBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E90218B02E7004C2821 /* UIImage+ImagePicerBundle.h */; };
+		F9374EA9218B02E7004C2821 /* UIImage+ImagePicerBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E90218B02E7004C2821 /* UIImage+ImagePicerBundle.h */; };
+		F9374EAA218B02E7004C2821 /* UIImage+ImagePicerBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E91218B02E7004C2821 /* UIImage+ImagePicerBundle.m */; };
+		F9374EAB218B02E7004C2821 /* UIImage+ImagePicerBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E91218B02E7004C2821 /* UIImage+ImagePicerBundle.m */; };
+		F9374EAC218B02E7004C2821 /* ZHAlbumController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E92218B02E7004C2821 /* ZHAlbumController.h */; };
+		F9374EAD218B02E7004C2821 /* ZHAlbumController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E92218B02E7004C2821 /* ZHAlbumController.h */; };
+		F9374EAE218B02E7004C2821 /* ZHAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E93218B02E7004C2821 /* ZHAlbumController.m */; };
+		F9374EAF218B02E7004C2821 /* ZHAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E93218B02E7004C2821 /* ZHAlbumController.m */; };
+		F9374EB0218B02E7004C2821 /* ZHAssetsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E94218B02E7004C2821 /* ZHAssetsModel.h */; };
+		F9374EB1218B02E7004C2821 /* ZHAssetsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E94218B02E7004C2821 /* ZHAssetsModel.h */; };
+		F9374EB2218B02E7004C2821 /* ZHAssetsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E95218B02E7004C2821 /* ZHAssetsModel.m */; };
+		F9374EB3218B02E7004C2821 /* ZHAssetsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E95218B02E7004C2821 /* ZHAssetsModel.m */; };
+		F9374EB4218B02E7004C2821 /* ZHImagePickerConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E97218B02E7004C2821 /* ZHImagePickerConst.h */; };
+		F9374EB5218B02E7004C2821 /* ZHImagePickerConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E97218B02E7004C2821 /* ZHImagePickerConst.h */; };
+		F9374EB6218B02E7004C2821 /* ZHImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E98218B02E7004C2821 /* ZHImagePickerController.h */; };
+		F9374EB7218B02E7004C2821 /* ZHImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E98218B02E7004C2821 /* ZHImagePickerController.h */; };
+		F9374EB8218B02E7004C2821 /* ZHImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E99218B02E7004C2821 /* ZHImagePickerController.m */; };
+		F9374EB9218B02E7004C2821 /* ZHImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E99218B02E7004C2821 /* ZHImagePickerController.m */; };
+		F9374EBA218B02E7004C2821 /* ZHMediaFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E9A218B02E7004C2821 /* ZHMediaFetcher.h */; };
+		F9374EBB218B02E7004C2821 /* ZHMediaFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E9A218B02E7004C2821 /* ZHMediaFetcher.h */; };
+		F9374EBC218B02E7004C2821 /* ZHMediaFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E9B218B02E7004C2821 /* ZHMediaFetcher.m */; };
+		F9374EBD218B02E7004C2821 /* ZHMediaFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E9B218B02E7004C2821 /* ZHMediaFetcher.m */; };
+		F9374EBE218B02E7004C2821 /* ZHPhotoPickerCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E9C218B02E7004C2821 /* ZHPhotoPickerCollectionCell.h */; };
+		F9374EBF218B02E7004C2821 /* ZHPhotoPickerCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E9C218B02E7004C2821 /* ZHPhotoPickerCollectionCell.h */; };
+		F9374EC0218B02E7004C2821 /* ZHPhotoPickerCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E9D218B02E7004C2821 /* ZHPhotoPickerCollectionCell.m */; };
+		F9374EC1218B02E7004C2821 /* ZHPhotoPickerCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E9D218B02E7004C2821 /* ZHPhotoPickerCollectionCell.m */; };
+		F9374EC2218B02E7004C2821 /* ZHPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E9E218B02E7004C2821 /* ZHPhotoPickerController.h */; };
+		F9374EC3218B02E7004C2821 /* ZHPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374E9E218B02E7004C2821 /* ZHPhotoPickerController.h */; };
+		F9374EC4218B02E7004C2821 /* ZHPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E9F218B02E7004C2821 /* ZHPhotoPickerController.m */; };
+		F9374EC5218B02E7004C2821 /* ZHPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374E9F218B02E7004C2821 /* ZHPhotoPickerController.m */; };
+		F9374EC6218B02E7004C2821 /* ZHPhotoPreviewBottomView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374EA0218B02E7004C2821 /* ZHPhotoPreviewBottomView.h */; };
+		F9374EC7218B02E7004C2821 /* ZHPhotoPreviewBottomView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374EA0218B02E7004C2821 /* ZHPhotoPreviewBottomView.h */; };
+		F9374EC8218B02E7004C2821 /* ZHPhotoPreviewBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374EA1218B02E7004C2821 /* ZHPhotoPreviewBottomView.m */; };
+		F9374EC9218B02E7004C2821 /* ZHPhotoPreviewBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374EA1218B02E7004C2821 /* ZHPhotoPreviewBottomView.m */; };
+		F9374ECA218B02E7004C2821 /* ZHPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374EA2218B02E7004C2821 /* ZHPhotoPreviewCell.h */; };
+		F9374ECB218B02E7004C2821 /* ZHPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374EA2218B02E7004C2821 /* ZHPhotoPreviewCell.h */; };
+		F9374ECC218B02E7004C2821 /* ZHPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374EA3218B02E7004C2821 /* ZHPhotoPreviewCell.m */; };
+		F9374ECD218B02E7004C2821 /* ZHPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374EA3218B02E7004C2821 /* ZHPhotoPreviewCell.m */; };
+		F9374ECE218B02E7004C2821 /* ZHPhotoPreviewContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374EA4218B02E7004C2821 /* ZHPhotoPreviewContainerView.h */; };
+		F9374ECF218B02E7004C2821 /* ZHPhotoPreviewContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374EA4218B02E7004C2821 /* ZHPhotoPreviewContainerView.h */; };
+		F9374ED0218B02E7004C2821 /* ZHPhotoPreviewContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374EA5218B02E7004C2821 /* ZHPhotoPreviewContainerView.m */; };
+		F9374ED1218B02E7004C2821 /* ZHPhotoPreviewContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374EA5218B02E7004C2821 /* ZHPhotoPreviewContainerView.m */; };
+		F9374ED2218B02E7004C2821 /* ZHPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374EA6218B02E7004C2821 /* ZHPhotoPreviewController.h */; };
+		F9374ED3218B02E7004C2821 /* ZHPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9374EA6218B02E7004C2821 /* ZHPhotoPreviewController.h */; };
+		F9374ED4218B02E7004C2821 /* ZHPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374EA7218B02E7004C2821 /* ZHPhotoPreviewController.m */; };
+		F9374ED5218B02E7004C2821 /* ZHPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9374EA7218B02E7004C2821 /* ZHPhotoPreviewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D00BEA332A76B881069E864EF07FBAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D9E5D9F0A1F9A7CE98B58E18E70BCF;
+			remoteInfo = "Pods-CommonFunction_Example";
+		};
+		537BFB4BACAAC0413C3E88255BD0A18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 422AC0511104C5F3C95D4A60D5BB6869;
+			remoteInfo = CommonFunction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B87D607D92382D3FFD6B503CB50C312 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2E46D9AD8031A0D1C6228D7B4B5261 /* CommonFunction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonFunction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		102F206BFCC9D29BCFE5383E47CD41CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E6D8997E4D38D0E7067B6C8307B91B /* CommonFunction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonFunction.xcconfig; sourceTree = "<group>"; };
+		1E46845B330F3A5DC0B3E9902C465908 /* Pods-CommonFunction_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonFunction_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		23545094F318AD6E3740484863C2BF1D /* Pods-CommonFunction_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonFunction_Tests-resources.sh"; sourceTree = "<group>"; };
+		24C6D56E68B3E3757FCBE018AE136C50 /* Pods-CommonFunction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonFunction_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3D577159670E06EE2E134F45450DEB6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44590D0D1B9C1C57B007DDDE408088B2 /* Pods-CommonFunction_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonFunction_Example-dummy.m"; sourceTree = "<group>"; };
+		4A23F50D60D46D23E7F17B4B76303D03 /* Pods-CommonFunction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonFunction_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4AA77489B6A21C54CDD56A0A05315409 /* Pods_CommonFunction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonFunction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEC9A1FAD2679F3D64C66FBE2D7FA8E /* CommonFunction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonFunction-prefix.pch"; sourceTree = "<group>"; };
+		5EA4C619AA51A94CDDC4371EE1825B8D /* CommonFunction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CommonFunction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		608F3B354170CC69A36CD4C8EA36139D /* Pods-CommonFunction_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonFunction_Example-resources.sh"; sourceTree = "<group>"; };
+		62D41B85D09AF70C9AAB0FE3F0C7AD32 /* Pods_CommonFunction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonFunction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D8DFFD894D069C60EED41282E9E7BDC /* Pods-CommonFunction_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonFunction_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		78DD6D0C0AB72D0D9DBBBE8F000ED7C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7CA935B926D843556283B6B0C2E46921 /* Pods-CommonFunction_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonFunction_Tests-dummy.m"; sourceTree = "<group>"; };
+		9095F761316634DA6693672B4ECECD19 /* CommonFunction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonFunction-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9944DF1C5C5DFB9C2243F94DF9962672 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A1B34A0060AAFE2BFB9F3392C6D9E318 /* Pods-CommonFunction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonFunction_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A3DA5ED0E156E0DE86D82AC10710DED0 /* Pods-CommonFunction_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonFunction_Example.modulemap"; sourceTree = "<group>"; };
+		A813D3D26996EF233505738C354F3AC6 /* Pods-CommonFunction_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonFunction_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB6622A9D1AF2DFD96EB758B884AF1AB /* Pods-CommonFunction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonFunction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4DF188A05D6CF85F25C143BF9916D31 /* Pods-CommonFunction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonFunction_Tests.modulemap"; sourceTree = "<group>"; };
+		B722AC8D58A8B5441A48D830B4D9A7F5 /* CommonFunction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonFunction.modulemap; sourceTree = "<group>"; };
+		BC26ECF0E853E552EDD43378F9A56B40 /* Pods-CommonFunction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonFunction_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C43658BAA32B07F8F534B5CEF7EF2044 /* Pods-CommonFunction_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonFunction_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DE08CA22F28D2FC6C4AFE3184BC0444E /* Pods-CommonFunction_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonFunction_Example-umbrella.h"; sourceTree = "<group>"; };
+		EB333B73DF4BE8557C416D4A3727DD5D /* Pods-CommonFunction_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonFunction_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F754C421326C0E7E6F78C37C4EB63624 /* Pods-CommonFunction_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonFunction_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9374E08218B0270004C2821 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F9374E0B218B0270004C2821 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F9374E4A218B02B6004C2821 /* NSDate+AHDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AHDateUtil.h"; sourceTree = "<group>"; };
+		F9374E4B218B02B6004C2821 /* NSDate+AHDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AHDateUtil.m"; sourceTree = "<group>"; };
+		F9374E4C218B02B6004C2821 /* NSString+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encoding.h"; sourceTree = "<group>"; };
+		F9374E4D218B02B6004C2821 /* NSString+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encoding.m"; sourceTree = "<group>"; };
+		F9374E4E218B02B6004C2821 /* NSString+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encryption.h"; sourceTree = "<group>"; };
+		F9374E4F218B02B6004C2821 /* NSString+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encryption.m"; sourceTree = "<group>"; };
+		F9374E50218B02B6004C2821 /* NSString+RegEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegEx.h"; sourceTree = "<group>"; };
+		F9374E51218B02B6004C2821 /* NSString+RegEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegEx.m"; sourceTree = "<group>"; };
+		F9374E52218B02B6004C2821 /* NSString+stringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+stringUtil.h"; sourceTree = "<group>"; };
+		F9374E53218B02B6004C2821 /* NSString+stringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringUtil.m"; sourceTree = "<group>"; };
+		F9374E54218B02B6004C2821 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		F9374E55218B02B6004C2821 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		F9374E56218B02B6004C2821 /* UIImage+color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+color.h"; sourceTree = "<group>"; };
+		F9374E57218B02B6004C2821 /* UIImage+color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+color.m"; sourceTree = "<group>"; };
+		F9374E58218B02B6004C2821 /* UIView+coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+coordinate.h"; sourceTree = "<group>"; };
+		F9374E59218B02B6004C2821 /* UIView+coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+coordinate.m"; sourceTree = "<group>"; };
+		F9374E5A218B02B6004C2821 /* UIView+ExtendHitArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtendHitArea.h"; sourceTree = "<group>"; };
+		F9374E5B218B02B6004C2821 /* UIView+ExtendHitArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtendHitArea.m"; sourceTree = "<group>"; };
+		F9374E5C218B02B6004C2821 /* UIView+mainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+mainThread.h"; sourceTree = "<group>"; };
+		F9374E5D218B02B6004C2821 /* UIView+mainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+mainThread.m"; sourceTree = "<group>"; };
+		F9374E86218B02D3004C2821 /* CommonFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunction.h; sourceTree = "<group>"; };
+		F9374E89218B02DD004C2821 /* CommonFunctionPrefixHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunctionPrefixHeader.h; sourceTree = "<group>"; };
+		F9374E8A218B02DE004C2821 /* CommonFunctionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunctionDefine.h; sourceTree = "<group>"; };
+		F9374E90218B02E7004C2821 /* UIImage+ImagePicerBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImagePicerBundle.h"; sourceTree = "<group>"; };
+		F9374E91218B02E7004C2821 /* UIImage+ImagePicerBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImagePicerBundle.m"; sourceTree = "<group>"; };
+		F9374E92218B02E7004C2821 /* ZHAlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHAlbumController.h; sourceTree = "<group>"; };
+		F9374E93218B02E7004C2821 /* ZHAlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHAlbumController.m; sourceTree = "<group>"; };
+		F9374E94218B02E7004C2821 /* ZHAssetsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHAssetsModel.h; sourceTree = "<group>"; };
+		F9374E95218B02E7004C2821 /* ZHAssetsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHAssetsModel.m; sourceTree = "<group>"; };
+		F9374E96218B02E7004C2821 /* zhimagepicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = zhimagepicker.bundle; sourceTree = "<group>"; };
+		F9374E97218B02E7004C2821 /* ZHImagePickerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHImagePickerConst.h; sourceTree = "<group>"; };
+		F9374E98218B02E7004C2821 /* ZHImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHImagePickerController.h; sourceTree = "<group>"; };
+		F9374E99218B02E7004C2821 /* ZHImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHImagePickerController.m; sourceTree = "<group>"; };
+		F9374E9A218B02E7004C2821 /* ZHMediaFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHMediaFetcher.h; sourceTree = "<group>"; };
+		F9374E9B218B02E7004C2821 /* ZHMediaFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHMediaFetcher.m; sourceTree = "<group>"; };
+		F9374E9C218B02E7004C2821 /* ZHPhotoPickerCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPhotoPickerCollectionCell.h; sourceTree = "<group>"; };
+		F9374E9D218B02E7004C2821 /* ZHPhotoPickerCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPhotoPickerCollectionCell.m; sourceTree = "<group>"; };
+		F9374E9E218B02E7004C2821 /* ZHPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPhotoPickerController.h; sourceTree = "<group>"; };
+		F9374E9F218B02E7004C2821 /* ZHPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPhotoPickerController.m; sourceTree = "<group>"; };
+		F9374EA0218B02E7004C2821 /* ZHPhotoPreviewBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPhotoPreviewBottomView.h; sourceTree = "<group>"; };
+		F9374EA1218B02E7004C2821 /* ZHPhotoPreviewBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPhotoPreviewBottomView.m; sourceTree = "<group>"; };
+		F9374EA2218B02E7004C2821 /* ZHPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPhotoPreviewCell.h; sourceTree = "<group>"; };
+		F9374EA3218B02E7004C2821 /* ZHPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPhotoPreviewCell.m; sourceTree = "<group>"; };
+		F9374EA4218B02E7004C2821 /* ZHPhotoPreviewContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPhotoPreviewContainerView.h; sourceTree = "<group>"; };
+		F9374EA5218B02E7004C2821 /* ZHPhotoPreviewContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPhotoPreviewContainerView.m; sourceTree = "<group>"; };
+		F9374EA6218B02E7004C2821 /* ZHPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPhotoPreviewController.h; sourceTree = "<group>"; };
+		F9374EA7218B02E7004C2821 /* ZHPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPhotoPreviewController.m; sourceTree = "<group>"; };
+		FE7021E358CC7C3A79ECD333254CC90E /* CommonFunction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonFunction-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312D08C3EB206B1029EE8A0D3F0D9241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6C0D61B0446E3E04F5561F4C46E1A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E8EF9EDB1F0E9B415FF9A3E934D7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6C4FD32700F73BA4D3707231D6C387 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F306C2E5C4C9184F9FB3D788C9423273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF40413DB8E9131DF16F46E2E969E8E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3386A221B9C1BAE6ABF081C775F25276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D2E46D9AD8031A0D1C6228D7B4B5261 /* CommonFunction.framework */,
+				62D41B85D09AF70C9AAB0FE3F0C7AD32 /* Pods_CommonFunction_Example.framework */,
+				4AA77489B6A21C54CDD56A0A05315409 /* Pods_CommonFunction_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51C4D34F3B8EDB617D4EBC46C307A0D7 /* Pods-CommonFunction_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D577159670E06EE2E134F45450DEB6D /* Info.plist */,
+				A3DA5ED0E156E0DE86D82AC10710DED0 /* Pods-CommonFunction_Example.modulemap */,
+				A813D3D26996EF233505738C354F3AC6 /* Pods-CommonFunction_Example-acknowledgements.markdown */,
+				1E46845B330F3A5DC0B3E9902C465908 /* Pods-CommonFunction_Example-acknowledgements.plist */,
+				44590D0D1B9C1C57B007DDDE408088B2 /* Pods-CommonFunction_Example-dummy.m */,
+				EB333B73DF4BE8557C416D4A3727DD5D /* Pods-CommonFunction_Example-frameworks.sh */,
+				608F3B354170CC69A36CD4C8EA36139D /* Pods-CommonFunction_Example-resources.sh */,
+				DE08CA22F28D2FC6C4AFE3184BC0444E /* Pods-CommonFunction_Example-umbrella.h */,
+				A1B34A0060AAFE2BFB9F3392C6D9E318 /* Pods-CommonFunction_Example.debug.xcconfig */,
+				4A23F50D60D46D23E7F17B4B76303D03 /* Pods-CommonFunction_Example.release.xcconfig */,
+			);
+			name = "Pods-CommonFunction_Example";
+			path = "Target Support Files/Pods-CommonFunction_Example";
+			sourceTree = "<group>";
+		};
+		5369CD39400DB3C032D53FF093E09F9D /* CommonFunction */ = {
+			isa = PBXGroup;
+			children = (
+				F9374E0A218B0270004C2821 /* Assets */,
+				F9374E07218B0270004C2821 /* Classes */,
+				76526EF9C85A005029B6DF92729A83FB /* Pod */,
+				B3D72DB708ABEC608179A20BB23F30DC /* Support Files */,
+			);
+			name = CommonFunction;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		712A188E82850B28DBDFF1B663E30566 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5369CD39400DB3C032D53FF093E09F9D /* CommonFunction */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		76526EF9C85A005029B6DF92729A83FB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4C619AA51A94CDDC4371EE1825B8D /* CommonFunction.podspec */,
+				78DD6D0C0AB72D0D9DBBBE8F000ED7C5 /* LICENSE */,
+				9944DF1C5C5DFB9C2243F94DF9962672 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				712A188E82850B28DBDFF1B663E30566 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3386A221B9C1BAE6ABF081C775F25276 /* Products */,
+				F554389D4BA0BAC3C90809A770692120 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B921274B4E80A4594FE4043C23679A /* Pods-CommonFunction_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0B87D607D92382D3FFD6B503CB50C312 /* Info.plist */,
+				B4DF188A05D6CF85F25C143BF9916D31 /* Pods-CommonFunction_Tests.modulemap */,
+				F754C421326C0E7E6F78C37C4EB63624 /* Pods-CommonFunction_Tests-acknowledgements.markdown */,
+				6D8DFFD894D069C60EED41282E9E7BDC /* Pods-CommonFunction_Tests-acknowledgements.plist */,
+				7CA935B926D843556283B6B0C2E46921 /* Pods-CommonFunction_Tests-dummy.m */,
+				C43658BAA32B07F8F534B5CEF7EF2044 /* Pods-CommonFunction_Tests-frameworks.sh */,
+				23545094F318AD6E3740484863C2BF1D /* Pods-CommonFunction_Tests-resources.sh */,
+				BC26ECF0E853E552EDD43378F9A56B40 /* Pods-CommonFunction_Tests-umbrella.h */,
+				AB6622A9D1AF2DFD96EB758B884AF1AB /* Pods-CommonFunction_Tests.debug.xcconfig */,
+				24C6D56E68B3E3757FCBE018AE136C50 /* Pods-CommonFunction_Tests.release.xcconfig */,
+			);
+			name = "Pods-CommonFunction_Tests";
+			path = "Target Support Files/Pods-CommonFunction_Tests";
+			sourceTree = "<group>";
+		};
+		B3D72DB708ABEC608179A20BB23F30DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B722AC8D58A8B5441A48D830B4D9A7F5 /* CommonFunction.modulemap */,
+				15E6D8997E4D38D0E7067B6C8307B91B /* CommonFunction.xcconfig */,
+				FE7021E358CC7C3A79ECD333254CC90E /* CommonFunction-dummy.m */,
+				4BEC9A1FAD2679F3D64C66FBE2D7FA8E /* CommonFunction-prefix.pch */,
+				9095F761316634DA6693672B4ECECD19 /* CommonFunction-umbrella.h */,
+				102F206BFCC9D29BCFE5383E47CD41CD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CommonFunction";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F554389D4BA0BAC3C90809A770692120 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51C4D34F3B8EDB617D4EBC46C307A0D7 /* Pods-CommonFunction_Example */,
+				A7B921274B4E80A4594FE4043C23679A /* Pods-CommonFunction_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F9374E07218B0270004C2821 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9374E86218B02D3004C2821 /* CommonFunction.h */,
+				F9374E8A218B02DE004C2821 /* CommonFunctionDefine.h */,
+				F9374E89218B02DD004C2821 /* CommonFunctionPrefixHeader.h */,
+				F9374E8F218B02E7004C2821 /* ImagePicker */,
+				F9374E49218B02B6004C2821 /* Category */,
+				F9374E08218B0270004C2821 /* .gitkeep */,
+			);
+			name = Classes;
+			path = CommonFunction/Classes;
+			sourceTree = "<group>";
+		};
+		F9374E0A218B0270004C2821 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F9374E0B218B0270004C2821 /* .gitkeep */,
+			);
+			name = Assets;
+			path = CommonFunction/Assets;
+			sourceTree = "<group>";
+		};
+		F9374E49218B02B6004C2821 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F9374E4A218B02B6004C2821 /* NSDate+AHDateUtil.h */,
+				F9374E4B218B02B6004C2821 /* NSDate+AHDateUtil.m */,
+				F9374E4C218B02B6004C2821 /* NSString+Encoding.h */,
+				F9374E4D218B02B6004C2821 /* NSString+Encoding.m */,
+				F9374E4E218B02B6004C2821 /* NSString+Encryption.h */,
+				F9374E4F218B02B6004C2821 /* NSString+Encryption.m */,
+				F9374E50218B02B6004C2821 /* NSString+RegEx.h */,
+				F9374E51218B02B6004C2821 /* NSString+RegEx.m */,
+				F9374E52218B02B6004C2821 /* NSString+stringUtil.h */,
+				F9374E53218B02B6004C2821 /* NSString+stringUtil.m */,
+				F9374E54218B02B6004C2821 /* UIColor+HexString.h */,
+				F9374E55218B02B6004C2821 /* UIColor+HexString.m */,
+				F9374E56218B02B6004C2821 /* UIImage+color.h */,
+				F9374E57218B02B6004C2821 /* UIImage+color.m */,
+				F9374E58218B02B6004C2821 /* UIView+coordinate.h */,
+				F9374E59218B02B6004C2821 /* UIView+coordinate.m */,
+				F9374E5A218B02B6004C2821 /* UIView+ExtendHitArea.h */,
+				F9374E5B218B02B6004C2821 /* UIView+ExtendHitArea.m */,
+				F9374E5C218B02B6004C2821 /* UIView+mainThread.h */,
+				F9374E5D218B02B6004C2821 /* UIView+mainThread.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F9374E8F218B02E7004C2821 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F9374E90218B02E7004C2821 /* UIImage+ImagePicerBundle.h */,
+				F9374E91218B02E7004C2821 /* UIImage+ImagePicerBundle.m */,
+				F9374E92218B02E7004C2821 /* ZHAlbumController.h */,
+				F9374E93218B02E7004C2821 /* ZHAlbumController.m */,
+				F9374E94218B02E7004C2821 /* ZHAssetsModel.h */,
+				F9374E95218B02E7004C2821 /* ZHAssetsModel.m */,
+				F9374E96218B02E7004C2821 /* zhimagepicker.bundle */,
+				F9374E97218B02E7004C2821 /* ZHImagePickerConst.h */,
+				F9374E98218B02E7004C2821 /* ZHImagePickerController.h */,
+				F9374E99218B02E7004C2821 /* ZHImagePickerController.m */,
+				F9374E9A218B02E7004C2821 /* ZHMediaFetcher.h */,
+				F9374E9B218B02E7004C2821 /* ZHMediaFetcher.m */,
+				F9374E9C218B02E7004C2821 /* ZHPhotoPickerCollectionCell.h */,
+				F9374E9D218B02E7004C2821 /* ZHPhotoPickerCollectionCell.m */,
+				F9374E9E218B02E7004C2821 /* ZHPhotoPickerController.h */,
+				F9374E9F218B02E7004C2821 /* ZHPhotoPickerController.m */,
+				F9374EA0218B02E7004C2821 /* ZHPhotoPreviewBottomView.h */,
+				F9374EA1218B02E7004C2821 /* ZHPhotoPreviewBottomView.m */,
+				F9374EA2218B02E7004C2821 /* ZHPhotoPreviewCell.h */,
+				F9374EA3218B02E7004C2821 /* ZHPhotoPreviewCell.m */,
+				F9374EA4218B02E7004C2821 /* ZHPhotoPreviewContainerView.h */,
+				F9374EA5218B02E7004C2821 /* ZHPhotoPreviewContainerView.m */,
+				F9374EA6218B02E7004C2821 /* ZHPhotoPreviewController.h */,
+				F9374EA7218B02E7004C2821 /* ZHPhotoPreviewController.m */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08429A61AA66A60A5048210CF690A1FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA651F6E522D3F8BC82C88C6161152C8 /* Pods-CommonFunction_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450E59DE9CD69A9A93888E60EA30F6F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9374EB6218B02E7004C2821 /* ZHImagePickerController.h in Headers */,
+				F9374EBA218B02E7004C2821 /* ZHMediaFetcher.h in Headers */,
+				F9374EAC218B02E7004C2821 /* ZHAlbumController.h in Headers */,
+				F9374E76218B02B6004C2821 /* UIImage+color.h in Headers */,
+				F9374EBE218B02E7004C2821 /* ZHPhotoPickerCollectionCell.h in Headers */,
+				F9374E87218B02D3004C2821 /* CommonFunction.h in Headers */,
+				F9374ED2218B02E7004C2821 /* ZHPhotoPreviewController.h in Headers */,
+				F9374E8D218B02DE004C2821 /* CommonFunctionDefine.h in Headers */,
+				F9374E62218B02B6004C2821 /* NSString+Encoding.h in Headers */,
+				F9374ECA218B02E7004C2821 /* ZHPhotoPreviewCell.h in Headers */,
+				F9374E66218B02B6004C2821 /* NSString+Encryption.h in Headers */,
+				F9374E5E218B02B6004C2821 /* NSDate+AHDateUtil.h in Headers */,
+				F9374E72218B02B6004C2821 /* UIColor+HexString.h in Headers */,
+				F9374E6E218B02B6004C2821 /* NSString+stringUtil.h in Headers */,
+				F9374E7E218B02B6004C2821 /* UIView+ExtendHitArea.h in Headers */,
+				F9374EC2218B02E7004C2821 /* ZHPhotoPickerController.h in Headers */,
+				F9374E6A218B02B6004C2821 /* NSString+RegEx.h in Headers */,
+				F9374E8B218B02DE004C2821 /* CommonFunctionPrefixHeader.h in Headers */,
+				F9374EB0218B02E7004C2821 /* ZHAssetsModel.h in Headers */,
+				F9374E7A218B02B6004C2821 /* UIView+coordinate.h in Headers */,
+				F9374EA8218B02E7004C2821 /* UIImage+ImagePicerBundle.h in Headers */,
+				F9374EC6218B02E7004C2821 /* ZHPhotoPreviewBottomView.h in Headers */,
+				F9374ECE218B02E7004C2821 /* ZHPhotoPreviewContainerView.h in Headers */,
+				17FD91185BAE2E46C5517C85EE3E9D2D /* CommonFunction-umbrella.h in Headers */,
+				F9374EB4218B02E7004C2821 /* ZHImagePickerConst.h in Headers */,
+				F9374E82218B02B6004C2821 /* UIView+mainThread.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D42D5BBF6299A56DADAD8F38E1F0994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9374EB7218B02E7004C2821 /* ZHImagePickerController.h in Headers */,
+				F9374EBB218B02E7004C2821 /* ZHMediaFetcher.h in Headers */,
+				F9374EAD218B02E7004C2821 /* ZHAlbumController.h in Headers */,
+				F9374E77218B02B6004C2821 /* UIImage+color.h in Headers */,
+				F9374EBF218B02E7004C2821 /* ZHPhotoPickerCollectionCell.h in Headers */,
+				F9374E88218B02D3004C2821 /* CommonFunction.h in Headers */,
+				F9374ED3218B02E7004C2821 /* ZHPhotoPreviewController.h in Headers */,
+				F9374E8E218B02DE004C2821 /* CommonFunctionDefine.h in Headers */,
+				F9374E63218B02B6004C2821 /* NSString+Encoding.h in Headers */,
+				F9374ECB218B02E7004C2821 /* ZHPhotoPreviewCell.h in Headers */,
+				F9374E67218B02B6004C2821 /* NSString+Encryption.h in Headers */,
+				F9374E5F218B02B6004C2821 /* NSDate+AHDateUtil.h in Headers */,
+				F9374E73218B02B6004C2821 /* UIColor+HexString.h in Headers */,
+				F9374E6F218B02B6004C2821 /* NSString+stringUtil.h in Headers */,
+				F9374E7F218B02B6004C2821 /* UIView+ExtendHitArea.h in Headers */,
+				F9374EC3218B02E7004C2821 /* ZHPhotoPickerController.h in Headers */,
+				F9374E6B218B02B6004C2821 /* NSString+RegEx.h in Headers */,
+				F9374E8C218B02DE004C2821 /* CommonFunctionPrefixHeader.h in Headers */,
+				F9374EB1218B02E7004C2821 /* ZHAssetsModel.h in Headers */,
+				F9374E7B218B02B6004C2821 /* UIView+coordinate.h in Headers */,
+				F9374EA9218B02E7004C2821 /* UIImage+ImagePicerBundle.h in Headers */,
+				F9374EC7218B02E7004C2821 /* ZHPhotoPreviewBottomView.h in Headers */,
+				F9374ECF218B02E7004C2821 /* ZHPhotoPreviewContainerView.h in Headers */,
+				CC96F122C1809D77007958FC2F277807 /* Pods-CommonFunction_Example-umbrella.h in Headers */,
+				F9374EB5218B02E7004C2821 /* ZHImagePickerConst.h in Headers */,
+				F9374E83218B02B6004C2821 /* UIView+mainThread.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		422AC0511104C5F3C95D4A60D5BB6869 /* CommonFunction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ABDECDB40555D37473B9660A5EACA56 /* Build configuration list for PBXNativeTarget "CommonFunction" */;
+			buildPhases = (
+				BCA67AABEF18409C12B38F8F29553B1E /* Sources */,
+				C2E8EF9EDB1F0E9B415FF9A3E934D7A0 /* Frameworks */,
+				450E59DE9CD69A9A93888E60EA30F6F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonFunction;
+			productName = CommonFunction;
+			productReference = 0D2E46D9AD8031A0D1C6228D7B4B5261 /* CommonFunction.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AED36C49D3777E453E09B701846FB55 /* Pods-CommonFunction_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD641A0A3A4EC45B56CF0491EEFE57FF /* Build configuration list for PBXNativeTarget "Pods-CommonFunction_Tests" */;
+			buildPhases = (
+				1F8EBDD5C4B53FE95B406184608E0139 /* Sources */,
+				312D08C3EB206B1029EE8A0D3F0D9241 /* Frameworks */,
+				08429A61AA66A60A5048210CF690A1FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2EFD08F22A4AF34B3B6A2B052893B3A /* PBXTargetDependency */,
+			);
+			name = "Pods-CommonFunction_Tests";
+			productName = "Pods-CommonFunction_Tests";
+			productReference = 4AA77489B6A21C54CDD56A0A05315409 /* Pods_CommonFunction_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71D9E5D9F0A1F9A7CE98B58E18E70BCF /* Pods-CommonFunction_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAE541482DEA286CF05EDF1887D6B68 /* Build configuration list for PBXNativeTarget "Pods-CommonFunction_Example" */;
+			buildPhases = (
+				7C3C80E90E38346DC87554DB0B72BE59 /* Sources */,
+				F306C2E5C4C9184F9FB3D788C9423273 /* Frameworks */,
+				4D42D5BBF6299A56DADAD8F38E1F0994 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCEA3CB6D05BBC33174B5E59CF431371 /* PBXTargetDependency */,
+			);
+			name = "Pods-CommonFunction_Example";
+			productName = "Pods-CommonFunction_Example";
+			productReference = 62D41B85D09AF70C9AAB0FE3F0C7AD32 /* Pods_CommonFunction_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3386A221B9C1BAE6ABF081C775F25276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				422AC0511104C5F3C95D4A60D5BB6869 /* CommonFunction */,
+				71D9E5D9F0A1F9A7CE98B58E18E70BCF /* Pods-CommonFunction_Example */,
+				5AED36C49D3777E453E09B701846FB55 /* Pods-CommonFunction_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F8EBDD5C4B53FE95B406184608E0139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C88BEFAC2AB10FD4BDB09B880ED2D3E /* Pods-CommonFunction_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3C80E90E38346DC87554DB0B72BE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9374E71218B02B6004C2821 /* NSString+stringUtil.m in Sources */,
+				F9374EB9218B02E7004C2821 /* ZHImagePickerController.m in Sources */,
+				F9374EAB218B02E7004C2821 /* UIImage+ImagePicerBundle.m in Sources */,
+				F9374E85218B02B6004C2821 /* UIView+mainThread.m in Sources */,
+				F9374ED1218B02E7004C2821 /* ZHPhotoPreviewContainerView.m in Sources */,
+				F9374E81218B02B6004C2821 /* UIView+ExtendHitArea.m in Sources */,
+				F9374E65218B02B6004C2821 /* NSString+Encoding.m in Sources */,
+				F9374EC5218B02E7004C2821 /* ZHPhotoPickerController.m in Sources */,
+				D008CFDDA5C5975C1F1039543F8AC141 /* Pods-CommonFunction_Example-dummy.m in Sources */,
+				F9374EC1218B02E7004C2821 /* ZHPhotoPickerCollectionCell.m in Sources */,
+				F9374ECD218B02E7004C2821 /* ZHPhotoPreviewCell.m in Sources */,
+				F9374ED5218B02E7004C2821 /* ZHPhotoPreviewController.m in Sources */,
+				F9374E69218B02B6004C2821 /* NSString+Encryption.m in Sources */,
+				F9374E7D218B02B6004C2821 /* UIView+coordinate.m in Sources */,
+				F9374E75218B02B6004C2821 /* UIColor+HexString.m in Sources */,
+				F9374E79218B02B6004C2821 /* UIImage+color.m in Sources */,
+				F9374E6D218B02B6004C2821 /* NSString+RegEx.m in Sources */,
+				F9374E61218B02B6004C2821 /* NSDate+AHDateUtil.m in Sources */,
+				F9374EB3218B02E7004C2821 /* ZHAssetsModel.m in Sources */,
+				F9374EBD218B02E7004C2821 /* ZHMediaFetcher.m in Sources */,
+				F9374EC9218B02E7004C2821 /* ZHPhotoPreviewBottomView.m in Sources */,
+				F9374EAF218B02E7004C2821 /* ZHAlbumController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA67AABEF18409C12B38F8F29553B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9374E70218B02B6004C2821 /* NSString+stringUtil.m in Sources */,
+				F9374EB8218B02E7004C2821 /* ZHImagePickerController.m in Sources */,
+				F9374EAA218B02E7004C2821 /* UIImage+ImagePicerBundle.m in Sources */,
+				F9374E84218B02B6004C2821 /* UIView+mainThread.m in Sources */,
+				F9374ED0218B02E7004C2821 /* ZHPhotoPreviewContainerView.m in Sources */,
+				F9374E80218B02B6004C2821 /* UIView+ExtendHitArea.m in Sources */,
+				F9374E64218B02B6004C2821 /* NSString+Encoding.m in Sources */,
+				F9374EC4218B02E7004C2821 /* ZHPhotoPickerController.m in Sources */,
+				1329550B04B2F212426A7D7AEDF99F58 /* CommonFunction-dummy.m in Sources */,
+				F9374EC0218B02E7004C2821 /* ZHPhotoPickerCollectionCell.m in Sources */,
+				F9374ECC218B02E7004C2821 /* ZHPhotoPreviewCell.m in Sources */,
+				F9374ED4218B02E7004C2821 /* ZHPhotoPreviewController.m in Sources */,
+				F9374E68218B02B6004C2821 /* NSString+Encryption.m in Sources */,
+				F9374E7C218B02B6004C2821 /* UIView+coordinate.m in Sources */,
+				F9374E74218B02B6004C2821 /* UIColor+HexString.m in Sources */,
+				F9374E78218B02B6004C2821 /* UIImage+color.m in Sources */,
+				F9374E6C218B02B6004C2821 /* NSString+RegEx.m in Sources */,
+				F9374E60218B02B6004C2821 /* NSDate+AHDateUtil.m in Sources */,
+				F9374EB2218B02E7004C2821 /* ZHAssetsModel.m in Sources */,
+				F9374EBC218B02E7004C2821 /* ZHMediaFetcher.m in Sources */,
+				F9374EC8218B02E7004C2821 /* ZHPhotoPreviewBottomView.m in Sources */,
+				F9374EAE218B02E7004C2821 /* ZHAlbumController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCEA3CB6D05BBC33174B5E59CF431371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CommonFunction;
+			target = 422AC0511104C5F3C95D4A60D5BB6869 /* CommonFunction */;
+			targetProxy = 537BFB4BACAAC0413C3E88255BD0A18A /* PBXContainerItemProxy */;
+		};
+		E2EFD08F22A4AF34B3B6A2B052893B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CommonFunction_Example";
+			target = 71D9E5D9F0A1F9A7CE98B58E18E70BCF /* Pods-CommonFunction_Example */;
+			targetProxy = 4D00BEA332A76B881069E864EF07FBAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2022B2D7D8F5D8FEC288D485B6ADADBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E6D8997E4D38D0E7067B6C8307B91B /* CommonFunction.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonFunction/CommonFunction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonFunction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonFunction/CommonFunction.modulemap";
+				PRODUCT_MODULE_NAME = CommonFunction;
+				PRODUCT_NAME = CommonFunction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2344B13E521DBF8DD5F80B8A3292CCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6622A9D1AF2DFD96EB758B884AF1AB /* Pods-CommonFunction_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonFunction_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonFunction_Tests/Pods-CommonFunction_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2367EBED696568254309D81AB5721FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E6D8997E4D38D0E7067B6C8307B91B /* CommonFunction.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonFunction/CommonFunction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonFunction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonFunction/CommonFunction.modulemap";
+				PRODUCT_MODULE_NAME = CommonFunction;
+				PRODUCT_NAME = CommonFunction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38809E88B5E58B1B755552DABE7AADBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B34A0060AAFE2BFB9F3392C6D9E318 /* Pods-CommonFunction_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonFunction_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonFunction_Example/Pods-CommonFunction_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CFD7B113516A04749CB66D788EC7ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A23F50D60D46D23E7F17B4B76303D03 /* Pods-CommonFunction_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonFunction_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonFunction_Example/Pods-CommonFunction_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E2F3BE436A7A872783A047EB3356D20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C6D56E68B3E3757FCBE018AE136C50 /* Pods-CommonFunction_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonFunction_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonFunction_Tests/Pods-CommonFunction_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ABDECDB40555D37473B9660A5EACA56 /* Build configuration list for PBXNativeTarget "CommonFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2022B2D7D8F5D8FEC288D485B6ADADBA /* Debug */,
+				2367EBED696568254309D81AB5721FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAE541482DEA286CF05EDF1887D6B68 /* Build configuration list for PBXNativeTarget "Pods-CommonFunction_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38809E88B5E58B1B755552DABE7AADBB /* Debug */,
+				6CFD7B113516A04749CB66D788EC7ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD641A0A3A4EC45B56CF0491EEFE57FF /* Build configuration list for PBXNativeTarget "Pods-CommonFunction_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2344B13E521DBF8DD5F80B8A3292CCFD /* Debug */,
+				E2F3BE436A7A872783A047EB3356D20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

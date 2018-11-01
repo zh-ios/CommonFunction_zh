@@ -1,0 +1,16 @@
+PODS:
+  - CommonFunction (0.1.0)
+
+DEPENDENCIES:
+  - CommonFunction (from `../`)
+
+EXTERNAL SOURCES:
+  CommonFunction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonFunction: bdca0fa07406f7bd057fb604ca67d8a8e27b4a47
+
+PODFILE CHECKSUM: 9e830085eda102ccadd4e30aef21f989c775329e
+
+COCOAPODS: 1.5.3
