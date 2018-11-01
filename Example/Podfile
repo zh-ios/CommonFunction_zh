@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CommonFunction_Example' do
+  pod 'CommonFunction', :path => '../'
+
+  target 'CommonFunction_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
