@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name             = 'CommonFunction_zh'
+    s.name             = 'CommonFunction_zhx'
     s.version          = '1.0.0'
     s.summary          = 'CommonFunction for project'
     s.description      = <<-DESC
