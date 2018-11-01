@@ -140,7 +140,7 @@
 		4A23F50D60D46D23E7F17B4B76303D03 /* Pods-CommonFunction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonFunction_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4AA77489B6A21C54CDD56A0A05315409 /* Pods_CommonFunction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonFunction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEC9A1FAD2679F3D64C66FBE2D7FA8E /* CommonFunction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonFunction-prefix.pch"; sourceTree = "<group>"; };
-		5EA4C619AA51A94CDDC4371EE1825B8D /* CommonFunction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CommonFunction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5EA4C619AA51A94CDDC4371EE1825B8D /* CommonFunction_zh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CommonFunction_zh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		608F3B354170CC69A36CD4C8EA36139D /* Pods-CommonFunction_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonFunction_Example-resources.sh"; sourceTree = "<group>"; };
 		62D41B85D09AF70C9AAB0FE3F0C7AD32 /* Pods_CommonFunction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonFunction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -292,7 +292,7 @@
 		76526EF9C85A005029B6DF92729A83FB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5EA4C619AA51A94CDDC4371EE1825B8D /* CommonFunction.podspec */,
+				5EA4C619AA51A94CDDC4371EE1825B8D /* CommonFunction_zh.podspec */,
 				78DD6D0C0AB72D0D9DBBBE8F000ED7C5 /* LICENSE */,
 				9944DF1C5C5DFB9C2243F94DF9962672 /* README.md */,
 			);
