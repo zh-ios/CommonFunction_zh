@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     DESC
     s.homepage         = 'https://github.com/zh-ios/CommonFunction_zh.git'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'allen' => 'xxx@163.com' }
+    s.author           = { 'zh' => 'zhuhao_ios@163.com' }
     s.source           = { :git => 'https://github.com/zh-ios/CommonFunction_zh.git', :tag => s.version.to_s }
     s.ios.deployment_target = '8.0'
     s.source_files = 'CommonFunction/Classes/**/*'
